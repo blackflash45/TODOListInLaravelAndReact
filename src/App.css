@@ -1,0 +1,216 @@
+.App {
+  text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  
+  background-color: #3333331b;
+}
+.list-container{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.list-item{
+  list-style-type: none;
+  /* background-color: #596e8b; */
+  border:2px solid rgb(161, 158, 158);
+  color:hsl(120, 100%, 1%);
+  padding:3px;
+  padding-left: 5px;
+  border-radius: 5px; 
+  width: 150%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 10px;
+  margin-left: -70px;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.main-container{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+.center-container{
+  height: 500px;
+  width: 350px;
+}
+.input-box-todo{
+  margin-left: 10px;
+  width: 100%;
+  height: 40px;
+  border-radius: 14px;
+  border:1px solid black;
+  padding-left: 10px;  
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+  outline: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+}
+.add-btn{
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  border:none;
+  background-color:#3170ed;
+  color: #0b0202;
+  font-weight: bolder;
+  font-size: larger;
+  text-align: center;
+  margin-left: 5px;  
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(11, 10, 10, 0.3);
+  transition: 0.3s;
+}
+.btns{
+  position: fixed;
+margin-left: 360px;
+background-color: #069533;
+font-size: medium;
+display: flexbox;
+font-weight: bolder;
+width: 50px;
+  padding: 2px;
+  border: 2px solid gray;
+}
+.squarebox{
+  width: 500px;
+  height: 500px;
+  padding: 0px;
+  border: 1px solid red;
+  position: fixed;
+
+  
+}
+.date{
+  margin-left: 297px; 
+  position: fixed;
+  }
+  .date2{
+     margin-left: 380px;
+     position: fixed;
+    }
+.btns2{
+  position: fixed;
+  margin-left: 420px;
+  background-color: #f60d05;
+  font-weight: bolder;
+  font-size: medium;
+  display: flexbox;
+  width: 50px;
+  padding: 2px;
+  border: 2px solid gray;
+  
+  }
+.add-btn2{
+  width:30px;
+  height:30px;
+  border-radius: 70%;
+  border:none;
+  background-color:#316fc1;
+  color: #0b0202;
+  font-weight: bolder;
+  font-size:xx-small;
+  margin-left: 150px;  
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(11, 10, 10, 0.3);
+  transition: 0.3s;
+}
+.input-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.icons{
+  position: absolute;
+  right: 10px;
+}
+.icons i{
+  margin: 4px;
+  font-size: large;
+  cursor: pointer;
+  transition: 0.1s;   
+}
+.icons i:hover{
+  transform: scale(1.2);  
+}
+.icon-delete:hover{
+  color: red;
+}
+.edit{
+  margin-left: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.app-heading{
+  text-align: center;
+  align-content: center;
+  font-weight: bolder;
+  font-size:xx-large;
+  text-decoration: underline;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 95%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
